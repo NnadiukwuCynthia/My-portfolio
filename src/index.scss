@@ -1,0 +1,54 @@
+// Fonts
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Rubik:wght@300;400;500;700&display=swap');
+
+
+// different screen/devices
+$Phone-width:  500px;
+$tablet-width:  768px;
+$desktop-width:  1024px;
+
+/*
+===============
+Variables
+===============
+*/
+
+:root{
+--bg-clr: #070616;
+--text-clr: #7bdcb5;
+--menu-clr: #e2dede;
+}
+
+*{
+    list-style: none;
+    background-color: var(--bg-clr);
+}
+.logo{
+    font-family: "Kanit";
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: var(--text-clr);
+}
+.listItem{
+    width: 40%;
+    padding: 40px 0 20px 40px;
+    font-family: "Rubik";
+    font-weight: 500;
+    color: var(--menu-clr);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.active{
+    background-color: var(--menu-clr);
+    color: var(--bg-clr);
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.hello{
+    color: var(--text-clr);
+}
+.name{
+    color: var(--menu-clr);
+}
