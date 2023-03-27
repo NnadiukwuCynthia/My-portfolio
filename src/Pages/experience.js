@@ -30,7 +30,7 @@ const Experience = () => {
           </Text>
         </GridItem>
         <GridItem pl="5">
-          <img src={Primetek} alt="primetek" className="workImg" />
+          <img src={Florintech} alt="florintech" className="workImg" />
           <Text fontSize="2xl" color="#7bdcb5">
             Software Developer - Trainee
           </Text>
@@ -42,7 +42,7 @@ const Experience = () => {
           </Text>
         </GridItem>
         <GridItem>
-          <img src={Florintech} alt="florintech" className="workImg" />
+          <img src={Primetek} alt="primetek" className="workImg" />
           <Text fontSize="2xl" color="#7bdcb5">
             Personal Assistant to the MD
           </Text>
