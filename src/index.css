@@ -47,4 +47,9 @@ Variables
 
 .name {
   color: var(--menu-clr);
+}
+
+.workImg {
+  width: 300px;
+  height: 150px;
 }/*# sourceMappingURL=index.css.map */
